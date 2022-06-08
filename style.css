@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#swan_height{
+    height: 955px;
+}
+
+.seasonal_drops{
+    height: 5000px;
+    background-image: linear-gradient(#EBCBFF, #FF70DB, #FFEA2D, #FF9505, #BCF2F5);
+}
+
+.container1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left_center{
+    position: absolute;
+    top: 451.15px;
+    left: 380.06px;
+
+}
+
+.right_center{
+    position: absolute;
+    top: 451.15px;
+    right: 380.06px;
+    
+}
+.brand_name_font_style{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.large_text{
+    font-size: 48px;
+}
+
+.text_lower{
+    position: relative;
+    bottom: -30px;
+}
+html{
+    font-size: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#test{
+    position: relative;
+    top: -1300px;
+    scale: 25%;
+}
+.highlight{
+    border-color: transparent;
+    color: yellow;
+}
+.highlight:hover{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: pink;
+}
+
+.btn{
+    border:2px solid transparent;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 14px 28px;
+    font-size: 48px;
+    cursor: pointer;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.container{
+    position: relative;
+    width: 50%;
+}
+
+.image{
+    opacity: 1;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container1:hover .image{
+opacity: 0.3;
+}
+.container1:hover .middle{
+    opacity: 1;
+}
+.text{
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 16px 32px;
+}
+#IMG1{
+    display: inline-block;
+    background-color: transparent;
+    opacity: 1;
+    position: relative;
+    width: 75%;
+    height: 75%;
+    top: 60px;
+    left: 20%px;
+    transform: scaleX(-1);
+
+}
+a,a:visited, a:hover, a:active{
+    color: inherit;
+    text-decoration: none;
+
+}
